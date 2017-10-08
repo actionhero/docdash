@@ -1,6 +1,6 @@
 {
   "name": "docdash-actionhero",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A clean, responsive documentation template theme for JSDoc 3 inspired by lodash and minami",
   "main": "publish.js",
   "scripts": {
