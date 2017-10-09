@@ -6,7 +6,7 @@ A clean, responsive documentation template theme for JSDoc 3.
 ![docdash-screenshot](https://pbs.twimg.com/media/DLuxGsFU8AAaFNz.png:large)
 
 ## Where?
-I power (docs.actionherojs.com)[https://docs.actionherojs.com]
+I power [docs.actionherojs.com](https://docs.actionherojs.com)
 
 ## Install
 
