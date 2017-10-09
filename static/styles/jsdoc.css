@@ -46,7 +46,7 @@ p, ul, ol, blockquote {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -69,11 +69,16 @@ h1.page-title {
 
 h2 {
   font-size: 24px;
-  margin: 1.5em 0 .3em;
+  font-weight: 600;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #E14E3A;
 }
 
 h3 {
   font-size: 24px;
+  font-weight: 500;
   margin: 1.2em 0 .3em;
 }
 
@@ -163,10 +168,11 @@ nav {
   padding-left: 10px;
   display: block;
   width: 250px;
-  background: #FBF9E4;
+  background: #FFFFFF;
   overflow: auto;
   position: fixed;
   height: 100%;
+  border-right: thick double #6E8898;
 }
 
 #nav-logo-container {
@@ -606,6 +612,17 @@ span.param-type, .params td .param-type, .param-type dd {
   height: 100%;
   background: hsla(0, 0%, 0%, 0.5);
   z-index: 1;
+}
+
+hr {
+  color:#E14E3A;
+  background-color:#E14E3A;
+  border:0;
+  height:2px;
+}
+
+.topLinks, .topBadges {
+  padding: 20px;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 680px) {
