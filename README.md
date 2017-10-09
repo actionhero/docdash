@@ -1,26 +1,24 @@
 # Docdash
-[![npm package](https://img.shields.io/npm/v/docdash.svg)](https://www.npmjs.com/package/docdash) [![license](https://img.shields.io/npm/l/docdash.svg)](LICENSE.md)
+[![npm package](https://img.shields.io/npm/v/docdash-actionhero.svg)](https://www.npmjs.com/package/docdash-actionhero) [![license](https://img.shields.io/npm/l/docdash-actionhero.svg)](LICENSE.md)
 
 A clean, responsive documentation template theme for JSDoc 3.
 
-![docdash-screenshot](https://cloud.githubusercontent.com/assets/447956/13398144/4dde7f36-defd-11e5-8909-1a9013302cb9.png)
+![docdash-screenshot](https://pbs.twimg.com/media/DLuxGsFU8AAaFNz.png:large)
 
-![docdash-screenshot-2](https://cloud.githubusercontent.com/assets/447956/13401057/e30effd8-df0a-11e5-9f51-66257ac38e94.jpg)
-
-## Example
-See http://clenemt.github.io/docdash/ for a sample demo. :rocket:
+## Where?
+I power (docs.actionherojs.com)[https://docs.actionherojs.com]
 
 ## Install
 
 ```bash
-$ npm install docdash
+$ npm install docdash-actionhero
 ```
 
 ## Usage
 Clone repository to your designated `jsdoc` template directory, then:
 
 ```bash
-$ jsdoc entry-file.js -t path/to/docdash
+$ jsdoc entry-file.js -t path/to/docdash-actionhero
 ```
 
 ## Usage (npm)
@@ -36,7 +34,7 @@ In your `jsdoc.json` file, add a template option.
 
 ```json
 "opts": {
-  "template": "node_modules/docdash"
+  "template": "node_modules/docdash-actionhero"
 }
 ```
 
